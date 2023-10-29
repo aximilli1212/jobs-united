@@ -1,4 +1,4 @@
-import {View, Text, SafeAreaView} from 'react-native';
+import {View, Text, SafeAreaView, ScrollView} from 'react-native';
 import { Stack, useRouter } from "expo-router";
 import {
     Nearbyjobs,
@@ -22,9 +22,19 @@ const Home = () => {
                     headerRight: () => (
                         <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />
                     ),
-                    headerTitle: "",
+                    headerTitle: "Jobs United",
             }}
             </Stack.Screen>
+            <ScrollView showsVerticalScrollIndicator={false}>
+                <View style={{
+                    flex: 1,
+                    padding: SIZES.medium,
+                }}>
+                    <Welcome />
+                    <Popularjobs />
+                    <Nearbyjobs />
+                </View>
+            </ScrollView>
         </SafeAreaView>
     );
 }
