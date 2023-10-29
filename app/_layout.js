@@ -1,8 +1,8 @@
-import { Stack } from "expo-router";
-import { useFonts } from "expo-font";
+import {Stack} from 'expo-router'
+import {useFonts} from "expo-font";
 
+const Layout = ({children}) => {
 
-const Layout = () => {
     const [fontsLoaded] = useFonts({
         DMBold: require("../assets/fonts/DMSans-Bold.ttf"),
         DMMedium: require("../assets/fonts/DMSans-Medium.ttf"),
@@ -15,9 +15,8 @@ const Layout = () => {
 
     return (
         <Stack>
-            <Stack.Screen name="home" />
+        {children}
         </Stack>
     )
-};
-
+}
 export default Layout;
