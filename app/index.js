@@ -11,8 +11,7 @@ import {COLORS, icons, images, SIZES } from "../constants";
 const Home = () => {
     return (
         <SafeAreaView style={{flex: 1, backgroundColor: COLORS.lightWhite}}>
-        <Text>Home</Text>
-            <Stack.Screen>
+            <Stack.Screen
                 options={{
                     headerStyle: {backgroundColor: COLORS.lightWhite},
                     headerShadowVisible: false,
@@ -23,8 +22,7 @@ const Home = () => {
                         <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />
                     ),
                     headerTitle: "Jobs United",
-            }}
-            </Stack.Screen>
+            }} />
             <ScrollView showsVerticalScrollIndicator={false}>
                 <View style={{
                     flex: 1,
