@@ -1,8 +1,15 @@
-import {Stack} from 'expo-router'
-import {useFonts} from "expo-font";
+import { Stack } from "expo-router";
+import { useFonts } from "expo-font";
+// import * as SplashScreen from "expo-splash-screen";
 
-const Layout = ({children}) => {
+// SplashScreen.preventAutoHideAsync();
 
+export const unstable_settings = {
+    // Ensure any route can link back to `/`
+    initialRouteName: "home",
+};
+
+const Layout = () => {
     const [fontsLoaded] = useFonts({
         DMBold: require("../assets/fonts/DMSans-Bold.ttf"),
         DMMedium: require("../assets/fonts/DMSans-Medium.ttf"),
@@ -14,9 +21,10 @@ const Layout = ({children}) => {
     }
 
     return (
-        <Stack>
-        {children}
+        <Stack initialRouteName="home">
+            <Stack.Screen name="home" />
         </Stack>
     )
-}
+};
+
 export default Layout;
