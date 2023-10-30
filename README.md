@@ -1,14 +1,14 @@
-# Expo Router Example
+# [Jobs United](https://www.tailwindtoolbox.com/) - [Admin Dashboard Template](https://www.tailwindtoolbox.com/templates/admin-template)
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+[Jobs United]  is a hobby weekend project from created by [JS Mastery](https://www.youtube.com/watch?v=mJ3bGvy0WAY).
 
-## 🚀 How to use
+![Jobs United](https://res.cloudinary.com/fitrip/image/upload/v1698660134/Simulator_Screen_Shot_-_iPhone_13_-_2023-10-30_at_09.26.40_fbnwaf.png)
 
-```sh
-npx create-expo-app -e with-router
-```
+## Getting Started
 
-## 📝 Notes
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+
+
+## Copyright and License
+
+Copyright 2018-2019 Astrava.Solutions Ltd. Code released under the MIT license.
