@@ -7,9 +7,3 @@
   <img src="https://res.cloudinary.com/fitrip/image/upload/v1698660133/Simulator_Screen_Shot_-_iPhone_13_-_2023-10-30_at_09.27.12_dfvdzr.png" width="30%"/> 
   <img src="https://res.cloudinary.com/fitrip/image/upload/v1698660133/Simulator_Screen_Shot_-_iPhone_13_-_2023-10-30_at_09.25.21_zrpupw.png" width="30%"/>
 </div>
-
-## Getting Started
-
-## Copyright and License 
-
-Copyright 2018-2019 Astrava.Solutions Ltd. Code released under the MIT license.
